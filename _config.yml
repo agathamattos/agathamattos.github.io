@@ -4,7 +4,7 @@
 
 title: Agatha Mattos' personal website # the website title (if blank, full name will be used instead)
 first_name: Agatha # your first name
-middle_name: H. # your middle name or initial
+middle_name: # your middle name or initial
 last_name: Mattos # your last name
 email: agatha.hennigendemattos@ucdconnect.ie
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
