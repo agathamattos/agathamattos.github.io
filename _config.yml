@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Agatha Mattos' personal website # the website title (if blank, full name will be used instead)
+title: Agatha Mattos # the website title (if blank, full name will be used instead)
 first_name: Agatha # your first name
 middle_name: # your middle name or initial
 last_name: Mattos # your last name
@@ -45,7 +45,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -129,7 +129,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: true
