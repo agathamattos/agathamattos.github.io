@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>U</a>. Address. Contacts. Moto. Etc.
+subtitle: Machine Learning Researchers at <a href='https://www.ml-labs.ie/'>ML Labs</a>, Ireland.
 
 profile:
   align: right
