@@ -1,8 +1,8 @@
 # github_users:
 #   - torvalds
-#   - alshedivat
+  - trexbatman
 
 github_repos:
+  - ml-labs-crt/popgrids 
   - ml-labs-crt/slums-med-res
   - ml-labs-crt/slums-unsupervised
-  - ml-labs-crt/popgrids
