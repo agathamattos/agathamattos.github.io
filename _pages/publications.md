@@ -2,9 +2,9 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Please see my <a href='https://scholar.google.com/citations?user=WQky650AAAAJ'>Google Scholar</a> for an up-to-date list of publications.
+description: Please refer to my <a href='https://scholar.google.com/citations?user=WQky650AAAAJ'>Google Scholar</a> for an up-to-date list of publications.
 years: [2022, 2021, 2020]
-nav: false
+nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
