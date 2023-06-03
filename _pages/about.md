@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Researchers at <a href='https://www.ml-labs.ie/'>ML Labs</a>, Ireland.
+subtitle: Machine Learning Researcher at <a href='https://www.ml-labs.ie/'>ML Labs</a>, Ireland.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 
   image_circular: false # crops the image to make it circular
   address: >
 
