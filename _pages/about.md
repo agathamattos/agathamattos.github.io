@@ -6,7 +6,7 @@ subtitle: Machine Learning Researcher at <a href='https://www.ml-labs.ie/'>ML La
 
 profile:
   align: right
-  image: mourne.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: > 
   <p> This is picture was taken in the Mourne Mountains in Northern Ireland.<\p> 
