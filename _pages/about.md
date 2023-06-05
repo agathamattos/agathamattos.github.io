@@ -9,7 +9,7 @@ profile:
   image: mourne.jpg
   image_circular: false # crops the image to make it circular
   address: > 
-  This is picture was taken in the Mourne Mountains in Northern Ireland. 
+  <p> This is picture was taken in the Mourne Mountains in Northern Ireland.<\p> 
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
