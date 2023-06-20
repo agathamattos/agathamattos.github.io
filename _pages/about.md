@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Researcher at <a href='https://www.ml-labs.ie/'>ML Labs</a>, Ireland.
+subtitle: Machine Learning Researchers at <a href='https://www.ml-labs.ie/'>ML Labs</a>, Ireland.
 
 profile:
   align: right
-  image: 8.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: > 
   This is picture was taken in the Mourne Mountains in Northern Ireland. 
