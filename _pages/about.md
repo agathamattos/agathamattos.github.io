@@ -4,15 +4,15 @@ title: about
 permalink: /
 subtitle: Machine Learning Researcher at <a href='https://www.ml-labs.ie/'>ML Labs</a>, Ireland.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   image_circular: false # crops the image to make it circular
   # address: 
   # <p>This is picture was taken in the Mourne Mountains in Northern Ireland.<\p>
 
 news: false  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
