@@ -10,9 +10,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with math | Agatha Mattos</title>
+    <title>Agatha Mattos</title>
     <meta name="author" content="Agatha  Mattos">
-    <meta name="description" content="an example of a blog post with some math">
+    <meta name="description" content="Agatha Mattos' personal website
+">
 
 
     <!-- Bootstrap & MDB -->
@@ -37,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://agathamattos.github.io/blog/2015/math/">
+    <link rel="canonical" href="https://agathamattos.github.io/">
 
     <!-- Dark Mode -->
     
@@ -58,7 +59,7 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/">Agatha Mattos</a>
+          
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -71,8 +72,8 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               <!-- About -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/">about</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
               </li>
               
 
@@ -108,52 +109,149 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- _layouts/post.html -->
+        <!-- about.html -->
+      <div class="post">
+        <header class="post-header">
+          <h1 class="post-title">
+           Agatha Mattos
+          </h1>
+          <p class="desc">Machine Learning Researcher at <a href="https://www.ml-labs.ie/" rel="external nofollow noopener" target="_blank">ML Labs</a>, Ireland.</p>
+        </header>
 
-<div class="post">
+        <article>
+          <div class="profile float-right">
 
-  <header class="post-header">
-    <h1 class="post-title">a post with math</h1>
-    <p class="post-meta">October 20, 2015</p>
-    <p class="post-tags">
-      <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-        ·  
-        <a href="/blog/tag/formatting">
-          <i class="fas fa-hashtag fa-sm"></i> formatting</a>  
-          <a href="/blog/tag/math">
-          <i class="fas fa-hashtag fa-sm"></i> math</a>  
-          
-        ·  
-        <a href="/blog/category/sample-posts">
-          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
-          
+              <figure>
 
-    </p>
-  </header>
-
-  <article class="post-content">
+  <picture>
     
-    <div id="markdown-content">
-      <p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/" rel="external nofollow noopener" target="_blank">MathJax 3</a> engine. You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>. If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/prof_pic-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/prof_pic-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/prof_pic-1400.webp"></source>
+    
 
-<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph. Here is an example:</p>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
-\[\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2\]
+  </picture>
 
-<p>You can also use <code class="language-plaintext highlighter-rouge">\begin{equation}...\end{equation}</code> instead of <code class="language-plaintext highlighter-rouge">$$</code> for display mode math.
-MathJax will automatically number equations:</p>
+</figure>
 
-<p>\begin{equation}
-\label{eq:cauchy-schwarz}
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-\end{equation}</p>
+          </div>
 
-<p>and by adding <code class="language-plaintext highlighter-rouge">\label{...}</code> inside the equation environment, we can now refer to the equation using <code class="language-plaintext highlighter-rouge">\eqref</code>.</p>
+          <div class="clearfix">
+            <p>I am a machine learning researcher, currently pursuing a PhD at University College Dublin. In my research, I employ satellite imagery and machine learning algorithms to keep track of goal 11.1 of the United Nations Sustainable Development Goals. This goal seeks to estimate the population living in deprived areas around the world. My focus has been on developing methods that can work at scale and robust to the noisiness and scarcity of labels in sustainable development applications.</p>
 
-<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html" rel="external nofollow noopener" target="_blank">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php" rel="external nofollow noopener" target="_blank">on par with KaTeX</a>.</p>
+<p>Prior to my PhD, I did lots of interesting things such as managing multi-million-dollar projects and working offshore. I occasionally teach modules related to data science and mentor master students.</p>
 
-    </div>
-  </article>
+          </div>
+
+          <!-- News -->
+          
+
+          <!-- Latest posts -->
+          
+
+          <!-- Selected papers -->
+          <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
+          <div class="publications">
+            <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="demattosAssessingQualityGridded2020" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Assessing the Quality of Gridded Population Data for Quantifying the Population Living in Deprived Communities</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Agatha C. H. de Mattos, Gavin McArdle, and Michela Bertolotto</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>arXiv:2011.12923 [cs]</em>, Nov 2020
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="2011.12923"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="demattosMappingSlumsMedium2021" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Mapping Slums with Medium Resolution Satellite Imagery: A Comparative Analysis of Multi-Spectral Data and Grey-level Co-occurrence Matrix Techniques</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Agatha C. H. de Mattos, Gavin McArdle, and Michela Bertolotto</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          Jun 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="2106.11395"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.48550/arXiv.2106.11395" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+</ol>
+          </div>
+
+
+          <!-- Social -->
+            <div class="social">
+              <div class="contact-icons">
+                <a href="mailto:%61%67%61%74%68%61.%68%65%6E%6E%69%67%65%6E%64%65%6D%61%74%74%6F%73@%75%63%64%63%6F%6E%6E%65%63%74.%69%65" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="https://scholar.google.com/citations?user=WQky650AAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
+            
+
+              </div>
+
+              <div class="contact-note">
+                
+              </div>
+
+            </div>
+        </article>
+
 </div>
 
       
