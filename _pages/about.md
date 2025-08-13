@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist at AXA, Ireland.
+subtitle: Data Scientist at AXA, Dublin, Ireland.
 
 # profile:
 #   align: right
